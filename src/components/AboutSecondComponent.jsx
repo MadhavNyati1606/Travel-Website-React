@@ -84,8 +84,8 @@ width: 500px;
     }
     #img-3{
         position: absolute;
-        left: 515px;
-        top: -35px;
+        left: 495px;
+        top: -40px;
     }
     .percentage p{
         margin-right: 90px;
