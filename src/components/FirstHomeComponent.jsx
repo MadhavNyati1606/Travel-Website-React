@@ -16,9 +16,9 @@ const FirstHomeComponent = () => {
             <div className="info-text">
                 <span><input type="text" placeholder='Where to?' className='input' /></span>
                 <hr/>
-                <span>Travel Type</span>
+                <span><input type="text" placeholder='Travel Type' className='input' /></span>
                 <hr/>
-                <span>Duration</span>
+                <span><input type="text" placeholder='Duration' className='input' /></span>
                 <hr/>
                 <Button>Submit</Button>
             </div>
@@ -75,8 +75,9 @@ const ContentContainer = styled.div`
             background: transparent;
             border: none;
             padding: 7px;
+            font-size: 20px;
             outline: none;
-            width: 90px;
+            width: 110px;
         }
         .input::placeholder{
             color: #fff;
